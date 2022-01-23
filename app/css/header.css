@@ -1,0 +1,37 @@
+.hero_banner{
+    position: relative;
+    height: 130px;
+    width: 100%;
+    
+}
+
+.navbar{ 
+    display: flex;
+}
+
+.navbar_logo{
+
+}
+
+.navbar_links{
+    position: absolute;
+
+    top:1rem;
+    right: 20rem;
+}
+
+.navbar_links li { 
+    list-style: none;
+    
+    position: relative;
+    display: inline-flex;
+    width: 4rem;
+    padding: 2.8rem;
+}
+
+.navbar_links li a {
+    font-family: 'Alata', sans-serif;
+    color: var(--color-DarkGray);
+    font-weight: 500;
+    text-decoration: none;
+}
